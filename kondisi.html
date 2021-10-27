@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="data"></div>
+<script>
+    //contoh if 1
+var lampu=true;
+if(lampu)
+{
+console.log("Lampu Menyala");
+}
+
+//contoh if 2
+var lampu=false;
+if(lampu)
+{
+console.log("Lampu Menyala");
+}
+
+//contoh if else 1
+var lampu=true;
+if(lampu)
+{
+ console.log("Lampu Menyala");
+}
+else
+{
+ console.log("Lampu Padam");   
+}
+
+//contoh if else 2
+var lampu=false;
+if(lampu)
+{
+    console.log("Lampu Menyala");
+}
+else
+{
+    console.log("Lampu Padam");
+}
+
+//contoh if else if
+var lampu="merah";
+if(lampu=='merah')
+{
+    console.log("Lampu Merah");
+}
+else if(lampu=='kuning')
+{
+    console.log("Lampu Kuning");
+}
+else if(lampu=='hijau')
+{
+    console.log("Lampu Hijau");
+}
+else
+{
+    console.log("Lampu Padam");
+}
+
+//contoh switch case
+var lampu="merah";
+switch(lampu)
+{
+    case "merah" :
+        console.log("Lampu Merah");
+        document.getElementById("data").innerHTML="Lampu Merah";
+    break;
+    case "kuning":
+        console.log("Lampu Kuning");
+        document.getElementById("data").innerHTML="Lampu Kuning"; 
+        break;
+    case "hijau":
+        console.log("Lampu Hijau");
+        document.getElementById("data").innerHTML="Lampu Hijau"; 
+        break;
+    default:
+        text= "Lampu Padam";
+}
+</script>
+</body>
+</html>
